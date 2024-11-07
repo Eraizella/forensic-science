@@ -12,9 +12,24 @@
     font-weight: 300;
     font-style: normal;
 }
+/* Apply globally */
+/*background for webpage*/
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url("background5.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: Poppins;
+}
+
+/* Adjust containAll */
 #containAll {
-    min-width: 1280px;
-    max-width: 2040px;
+  width: 100vw;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto; /* Center it if needed */
+  overflow-x: hidden;
 }
 footer {
     margin-top: 50px;
@@ -32,13 +47,6 @@ footer {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-/*background for webpage*/
-body {
-  background-image: url("background5.png");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  font-family: Poppins;
 }
 /*contains header and nav bar*/
 /*#head is the colored banner div*/
