@@ -13,6 +13,7 @@
     font-style: normal;
 }
 #containAll {
+    /*width: 100vw;*/
     min-width: 1280px;
     max-width: 2040px;
 }
@@ -134,6 +135,7 @@ br {
     border-radius: 5px;
     /*height: 100px;*/
 }
+
 /*small informative text under title*/
 #small-text {
     font-size: 12px;
@@ -202,10 +204,43 @@ br {
 }
 #contactimg {
     height: 500px;
-    margin-left: 55%;
-    margin-top: -100px;
-    max-width: 45%;
+    margin-left: 50%;
+    margin-top: -310px;
+    max-width: 25%;
+    background-color: rgb(0, 0, 0, 0.2);
+    outline: 0.5px inset grey;
+    box-shadow: rgba(0,0,0,0.2) 2px 2px 2px 2px inset;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 10px;
 }
+.textbox {
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0,0,0,0.2) 2px 2px 2px 2px;
+    outline: 0.5px outset grey;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    padding: 5px;
+    width: 40%;
+    height: 300px;
+}
+.textbox h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: 1px solid white underline; 
+    text-underline-offset: 5px;
+}
+.textbox h2 {
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: 10px;
+        text-decoration: none;
+}
+    
 /*side nav bar for about.html*/
 #content-select {
     box-shadow: rgba(0,0,0,0.2) 2px 2px 2px 2px inset;
@@ -247,7 +282,7 @@ br {
     box-shadow: rgba(0,0,0,0.2) 2px 2px 2px 2px;
     outline: 0.5px outset grey;
     background-color: rgba(255, 255, 255, 0.2);
-    height: 455px;
+    height: 557px;
     width: 155px;
     margin-left: 10px;
     margin-top: -10px;
@@ -275,7 +310,13 @@ br {
 
     margin-top: 20px;
 }
-.grid-item {
+#colorbox4 {
+    box-shadow: rgba(0,0,0,0.2) 2px 2px 2px 2px;
+    outline: 0.5px outset grey;
+    background-color: rgba(255, 255, 255, 0.2);
+   
+}
+    .grid-item {
     box-shadow: rgba(0,0,0,0.2) 2px 2px 2px 2px;
     outline: 0.5px outset grey;
     background-color: rgba(255, 255, 255, 0.2);
